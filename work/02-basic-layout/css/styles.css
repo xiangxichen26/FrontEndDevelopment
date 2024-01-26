@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+}
+#homepage{
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+        "header header"
+        "menu main"
+        "footer footer";
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: auto auto auto;
+}
+
+header{
+    grid-area: header;
+    background-color: plum;
+}
+
+
+.menu {
+    padding: 0rem 10rem;
+    display: flex;
+    list-style-type: none; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+
+a{
+    display: inline-block;
+    height: 100%; 
+    width: 100%; 
+    padding: 0; 
+}
+
+li:hover{
+    background-color: rebeccapurple;
+}
+
+
+.local-menu{
+    grid-area: menu;
+    background-color: pink;
+    border-right: 1px solid black;
+}
+
+.local-menu ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 1em;
+}
+
+.local-menu ul li{
+    margin-bottom: 2em;
+}
+
+
+main{
+    grid-area: main;
+    background-color: pink;
+    padding: 0 1em;
+}
+
+footer{
+    grid-area: footer;
+    background-color: plum;
+    padding: 1em;
+}
