@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/styles.css">
+    <meta name="viewport" content="width=device-width">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header-text">Basic Form</h1>
+    </header>
+
+    <main class="main">
+        <form class="register-form" action="/submit" method="POST">
+            <label class="form-label name-label" for="name">Name*</label>
+            <input class="form-input name-input" type="text" name="name" id="name" required />
+            <label class="form-label email-label" for="email">Email*</label>
+            <input class="form-input email-input" type="email" name="email" id="email" required />
+            
+            <label class="form-label tier-label" for="tier">Tier*</label>
+            <select class="form-input tier-select" name="tier" id="tier" required>
+                <option value="">Please select</option>
+                <option value="1">Silver Tie</option>
+                <option value="2">Gold Tier</option>
+                <option value="3">Platinum Tier</option>
+            </select>
+
+            <div class="annoy-me-checkbox">
+                <input class="" type="checkbox" name="annoy-me" id="annoy-me" checked />
+                <label class="" for="annoy-me">Do you want us to send you annoying emails?</label>
+            </div>
+           
+            <button class="submit-button" type="submit">Register</button>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <a class="footer-link" href="/">Privacy Policy</a>
+    </footer>
+</body>
+
+</html>
