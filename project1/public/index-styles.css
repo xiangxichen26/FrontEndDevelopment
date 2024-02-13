@@ -1,0 +1,166 @@
+/* default */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html,
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+
+/* header */
+.header {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 2rem;
+    padding: 1rem;
+
+    background-color: #9BBABD;
+}
+
+.header-logo {
+    grid-column: span 2;
+
+    cursor: pointer;
+}
+
+.header-logo-image {
+    width: 4rem;
+    border-radius: 50%;
+}
+
+.header-content {
+    grid-column: span 8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-nav {
+    grid-column: span 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-nav-menu {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    gap: 1rem;
+
+    list-style-type: none;
+}
+
+.header-nav-menu li:hover .menu-submenu,
+.header-nav-menu li:focus-within .menu-submenu {
+    max-height: 30rem;
+}
+
+.menu-button {
+    border: none;
+    padding: 0;
+
+    background-color: inherit;
+    color: -webkit-link;
+
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.menu-submenu {
+    padding: 0;
+    max-height: 0;
+    overflow: hidden;
+
+    list-style-type: none;
+
+    transition: 1s;
+    transition-property: max-height;
+}
+
+
+/* main */
+.main {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 2rem;
+    padding: 2rem 1rem;
+}
+
+.main-card-detail {
+    grid-column: span 4;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
+    background-color: #fff;
+
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+
+.card-image {
+    width: 100%;
+    height: 35rem;
+    object-fit: cover;
+}
+
+.card-title {
+    margin-top: 1rem;
+
+    font-size: 1.2rem;
+}
+
+.card-text {
+    margin-top: 1rem;
+
+    font-size: 1rem;
+}
+
+.card-link {
+    display: inline-block;
+    margin-top: 1rem;
+
+    color: blue;
+
+    font-size: 0.8rem;
+
+    cursor: pointer;
+}
+
+/* footer */
+.footer {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 2rem;
+    padding: 1rem;
+
+    background-color: #9BBABD;
+}
+
+.footer-link {
+    grid-column: span 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    font-size: 0.8rem;
+}
+
+@media (max-width: 50rem) {
+    .header{
+        grid-template-columns: auto
+    }
+    .main {
+        grid-template-columns: auto
+    }
+
+    .footer {
+        grid-template-columns: auto;
+    }
+}

@@ -1,0 +1,4 @@
+public/img/logo.jpg: my own
+public/img/aki.jpg: my own
+public/img/ringo.jpg: my own
+public/img/golden-poodle.jpg: https://unsplash.com/photos/white-and-brown-long-coated-puppy-z_U6bPp_Rjg
