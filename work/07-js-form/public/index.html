@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JS Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width">
+</head>
+
+<body>
+    <header class="header">
+        <h1>JS Form</h1>
+    </header>
+    <main class="main">
+        <div class="main-text">
+            <h2 class="main-title">Register</h2>
+            <span class="main-description">* means Required</span>
+        </div>
+        <form class="register-form" action="/register" method="POST">
+            <div class="form-item">
+                <label class="form-label" for="name">Name*</label>
+                <div class="form-item-main-content">
+                    <input class="form-input" type="text" id="name" name="name" />
+                    <small class="form-error-message" id="name-error" hidden>Name is required, please fill out this
+                        field.</small>
+                </div>
+            </div>
+            <div class="form-item">
+                <label class="form-label" for="email">Email*</label>
+                <div class="form-item-main-content">
+                    <input class="form-input" type="text" id="email" name="email" />
+                    <small class="form-error-message" id="email-error" hidden>Email is requied, Please fill out this
+                        field.</small>
+                </div>
+            </div>
+            <div class="form-item">
+                <label class="form-label" for="confirm-email">Confirm Email*</label>
+                <div class="form-item-main-content">
+                    <input class="form-input" type="text" id="confirm-email" name="confirm-email" />
+                <small class="form-error-message" id="confirm-email-error" hidden>Emails do not match.</small>
+            </div>           
+            </div>
+            <div class="form-item">
+                <label class="form-label" for="tier">Tier</label>
+                <div class="form-item-main-content">
+                    <select class="form-input" name="tier" id="tier">
+                        <option value="">Please select</option>
+                        <option value="1">Silver Tie</option>
+                        <option value="2">Gold Tier</option>
+                        <option value="3">Platinum Tier</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-chckbox">
+                <input class="form-checkbox-input" type="checkbox" name="wants-spam" id="wants-spam" checked />
+                <label class="form-checkbox-label" for="wants-spam">Do you want to subscribe us?</label>
+            </div>
+            <button class="submit-button" type="submit">Register</button>
+        </form>
+    </main>
+    <footer class="footer">
+        <a class="footer-link" href="/">Privacy Policy</a>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
