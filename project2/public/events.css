@@ -47,6 +47,7 @@ body {
 
 .header-logo {
     grid-column: span 2;
+    
     width: 100px;
     height: 100px;
     
@@ -59,10 +60,11 @@ body {
 
 .header-title{
     grid-column: span 8;
-    width: 100%;   
-     
-    text-align: center;
     margin: auto;
+
+    width: 100%;   
+
+    text-align: center;
     font-size: 1.8rem;
 }
 
@@ -84,13 +86,11 @@ body {
 .menu-submenu {
     position: absolute;
     right: 0;
-
-    background-color: burlywood;
-
     max-height: 0;
     padding: 0;
     overflow: hidden;
 
+    background-color: burlywood;
     list-style-type: none;
 
     transition: 0.5s;
@@ -163,7 +163,6 @@ body {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 1rem;
-
     padding: 1rem;
 
     background-color: burlywood;
@@ -191,15 +190,14 @@ body {
 
     .menu-submenu{
         position: relative;
-        max-height: initial;
-
         display: flex;
         justify-content: space-between;
+
+        max-height: initial;
     }
 
     .submenu-item{
         grid-column: span 4;
-
         margin: auto;
     }
 
@@ -209,7 +207,6 @@ body {
 
     .footer-link{
         grid-column: span 3;
-    
         display: flex;
         justify-content: center;
     
