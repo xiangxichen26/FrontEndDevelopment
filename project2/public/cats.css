@@ -1,0 +1,332 @@
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/menu.css');
+
+/* default */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html,
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* skip to content */
+.skip-to-content-link {
+    position: absolute;
+    left: 50%;
+    padding: 1rem;
+
+    transform: translateY(-100%);
+    transition: transform 0.3s;
+
+    border: none;
+    text-decoration: underline;
+
+}
+
+.skip-to-content-link:focus {
+    transform: translateY(0%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* header */
+.header {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 1rem;
+
+    background-color: burlywood;
+}
+
+.header-logo {
+    grid-column: span 2;
+    width: 100px;
+    height: 100px;
+    
+    cursor: pointer;
+}
+.header-logo-image {
+    width: 100px;
+    height: 100px;
+}
+
+.header-title{
+    grid-column: span 8;
+    width: 100%;   
+     
+    text-align: center;
+    margin: auto;
+    font-size: 1.8rem;
+}
+
+.header-nav {
+    grid-column: span 2;
+    margin: auto;
+
+    width: max-content;
+}
+
+
+.menu-button{
+    height: auto;
+    
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.menu-submenu {
+    position: absolute;
+    right: 0;
+
+    background-color: burlywood;
+
+    max-height: 0;
+    padding: 0;
+    overflow: hidden;
+
+    list-style-type: none;
+
+    transition: 0.5s;
+    transition-property: max-height;
+}
+
+.submenu-open{
+    max-height: 10rem;
+}
+
+.submenu-item{
+    list-style-type: none;
+    padding: 0.5rem;
+}
+
+.submenu-item:hover{
+    background-color: dodgerblue;
+}
+
+.submenu-link:hover{
+    color: white;
+}
+
+/* main */
+.main{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 1rem;
+
+    padding: 1rem;
+}
+
+.card-detail{
+    grid-column: span 12;
+
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    background-color: #eee;
+
+    transition: transform 0.2s ease-out;
+}
+
+.card-detail:hover{
+    transform: scale(1.05);
+}
+
+.card-title{
+    font-size: 1.6rem;
+    margin: 0.5rem;
+}
+
+.card-image{
+    width: 200px;
+    height: 200px;
+
+    padding: 0.5rem;
+}
+
+.card-text{
+    margin: 0.5rem;
+    text-align: left;
+
+    font-size: 1rem;
+}
+
+.subscribe-button {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+
+    border: none;
+    background-color: inherit;
+    color: blue;
+    cursor: pointer;
+    font-size: 1rem;
+    text-decoration: underline;
+}
+
+.subscribe-dialog ::backdrop{
+    background-color: black 0.7 opacity;
+}
+
+.subscribe-dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    padding: 1rem;
+
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    background-color: white;
+}
+
+.form-item{
+    margin-bottom: 2rem;
+}
+
+.form-item-main-content{
+    width: 100%;
+}
+
+.form-label{
+    width: 10rem;
+    margin-right: 1rem;
+
+    font-size: 1rem;
+}
+
+.form-input{
+    width: 100%;
+}
+
+.form-label-requiredSign{
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
+.form-button{
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 1.2rem;
+}
+
+.form-error-message{
+    color: red;
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
+.form-error-message-invalidEmail{
+    color: red;
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
+.subscribe-submit{
+    padding: 0.5rem;
+
+    border: 1px solid black;
+    border-radius: 1rem;
+    background-color: lime;
+    cursor: pointer;
+
+    font-size: 1.2rem;
+}
+
+.subscribe-cancel{
+    padding: 0.5rem;
+
+    border: 1px solid black;
+    border-radius: 1rem;
+    background-color: lightcoral;
+    cursor: pointer;
+
+    font-size: 1.2rem;
+}
+
+.invalid{
+    border: 1px solid red;
+}
+
+
+/* footer */
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 1rem;
+
+    padding: 1rem;
+
+    background-color: burlywood;
+}
+
+.footer-link {
+    grid-column: span 12;
+
+}
+
+
+@media (min-width: 44rem) {
+    .header-title{
+        grid-column: span 10;
+    }
+
+    .header-nav{
+        grid-column: span 12;
+
+        width: 100%;
+    }
+
+    .menu-button {
+        display: none;
+    }
+
+    .menu-submenu {
+        position: relative;
+        max-height: initial;
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .submenu-item{
+        grid-column: span 4;
+
+        margin: auto;
+    }
+    .card-detail {
+        grid-column: span 4;
+
+        align-items: center;
+    }
+
+    .footer-link {
+        grid-column: span 3;
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+
+}
+
+@media (prefers-reduced-motion) {
+    .card-detail:hover{
+        transform: none;
+    }
+}

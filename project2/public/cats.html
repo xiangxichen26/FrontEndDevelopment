@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cats</title>
+    <link rel="stylesheet" href="cats.css">
+    <meta name="viewport" content="width=device-width">
+</head>
+
+<body>
+    <a class="skip-to-content-link" href="#main">
+        <span>Skip to main content</span>
+    </a>
+    <div class="container">
+        <header class="header">
+            <a class="header-logo" href="/">
+                <img class="header-logo-image" src="./img/logo.jpg" alt="logo image">
+            </a>
+            <h1 class="header-title">Cats Power the Internet</h1>
+            <nav class="header-nav">
+                <button class="menu-button" aria-label="Toggle menu" type="button"><i class="gg-menu"></i></button>
+                <ul class="menu-submenu">
+                    <li class="submenu-item"><a class="submenu-link" href="index.html">Home</a></li>
+                    <li class="submenu-item"><a class="submenu-link" href="cats.html">Famous Cats</a></li>
+                    <li class="submenu-item"><a class="submenu-link" href="events.html">Cat Events</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <div class="card-detail">
+                <h2 class="card-title">Aki</h2>
+                <img class="card-image" src="./img/cat-1.jpg" alt="card image 1 for Aki" />
+                <p class="card-text">Ex ius nulla officiis nominati, sint labores ea quo. Vim at aliquando conceptam, ad
+                    brute munere mel, mea dicant partem in. Ea mea natum fugit tantas. Viderer molestie suscipit mea in,
+                    eius saepe delicatissimi ea eam.</p>
+                <p class="card-text">Let's <button class="subscribe-button">Subscribe</button> to Aki's channel and get
+                    to know more about him. </p>
+            </div>
+            <div class="card-detail">
+                <h2 class="card-title">Ringo</h2>
+                <img class="card-image" src="./img/cat-2.jpg" alt="card image 2 for Ringo" />
+                <p class="card-text">Lorem ipsum dolor sit amet, in oblique placerat intellegebat eos, vero denique
+                    ancillae mei no. Eripuit fabellas ut eum. In velit salutatus scribentur mea, mel ne quot propriae.
+                    Te tale atomorum democritum vix, zril omnes labore quo ut. Soluta mnesarchum in pri, ex est dicant
+                    epicurei inimicus.</p>
+                <p class="card-text">Let's <button class="subscribe-button">Subscribe</button> to Ringo's channel and
+                    get
+                    to know more
+                    about him. </p>
+            </div>
+            <div class="card-detail">
+                <h2 class="card-title">Suki</h2>
+                <img class="card-image" src="./img/cat-3.jpg" alt="card image 3 for Suki" />
+                <p class="card-text">Sea ut legimus definitiones, at pri nihil delicata philosophia. Ad vel soluta
+                    cetero eleifend, et eam dolore lucilius volutpat, meliore tibique an vis. Eu dolor audiam tincidunt
+                    vix, sea mollis repudiandae ut. Eu quo probatus petentium.</p>
+                <p class="card-text">Let's <button class="subscribe-button">Subscribe</button> to Suki's channel and get
+                    to know more about him. </p>
+            </div>
+            <div class="card-detail">
+                <h2 class="card-title">Bruno</h2>
+                <img class="card-image" src="./img/cat-4.jpg" alt="card image 4 for Bruno" />
+                <p class="card-text">Duo te antiopam sapientem maiestatis. Saepe congue graecis vix an, nam ex ipsum
+                    equidem, an nam ubique luptatum. Ex duo invenire abhorreant adversarium, mea ex quis nisl equidem.
+                    Ne dolores apeirian vis, wisi iuvaret cotidieque pri cu, hendrerit complectitur ea vix. Pri amet
+                    dicam adolescens at, ius id iusto copiosae consectetuer.</p>
+                <p class="card-text">Let's <button class="subscribe-button">Subscribe</button> to Bruno's channel and
+                    get to know more about him. </p>
+            </div>
+            <div class="card-detail">
+                <h2 class="card-title">Tag</h2>
+                <img class="card-image" src="./img/cat-5.jpg" alt="card image 5 for Tag" />
+                <p class="card-text">Nobis senserit democritum ne nam. Mea civibus recteque ullamcorper cu, ea sint
+                    modus praesent eam. Pri agam facer at, eu vis elit libris feugiat. Iracundia scriptorem eu ius.</p>
+                <p class="card-text">Let's <button class="subscribe-button">Subscribe</button> to Tag's channel and get
+                    to know more about him. </p>
+            </div>
+            <div class="card-detail">
+                <h2 class="card-title">Sussage</h2>
+                <img class="card-image" src="./img/cat-6.jpg" alt="card image 6 for Sussage" />
+                <p class="card-text">Possit corpora eligendi ut nec. Eam verterem suscipiantur ea, ne eos nisl omnis
+                    oportere, in eos saepe habemus. In mei falli congue. Sea tale tempor hendrerit eu, fugit scripta
+                    habemus qui eu, qui duis quaeque detraxit ea. Detracto euripidis has an, justo deserunt platonem ius
+                    ex.</p>
+                <p class="card-text">Let's <button class="subscribe-button">Subscribe</button> to Sussage's channel and get
+                    to know more about him. </p>
+            </div>
+            <dialog class="subscribe-dialog">
+                <h2 class="subscribe-title">Subscribe to the Latest News!</h2>
+                <form class="subscribe-form" action="/subscribe" method="POST">
+                    <div class="form-item">
+                        <label class="form-label" for="email">
+                            <span>Email: </span>
+                            <span class="form-label-requiredSign">* Required</span>
+                        </label>
+                        <div class="form-item-main-content">
+                            <input class="form-input" type="text" id="email" name="email" />
+                            <small class="form-error-message" id="email-error-empty" hidden>Email is requied, Please
+                                fill out
+                                this field.</small>
+                            <small class="form-error-message-invalidEmail" id="email-error-invalid" hidden>Please enter
+                                a valid email address.</small>
+                        </div>
+                    </div>
+                    <div class="form-item">
+                        <label class="form-label" for="confirm-email">
+                            <span>Confirm Email: </span>
+                            <span class="form-label-requiredSign">* Required</span>
+                        </label>
+                        <div class="form-item-main-content">
+                            <input class="form-input" type="text" id="confirm-email" name="confirm-email" />
+                            <small class="form-error-message" id="confirm-email-error" hidden>Emails do not
+                                match.</small>
+                        </div>
+                    </div>
+                    <div class="form-button">
+                        <button class="subscribe-submit" type="submit">Subscribe</button>
+                        <button class="subscribe-cancel" type="button">Cancel</button>
+                    </div>
+                </form>
+            </dialog>
+        </main>
+        <footer class="footer">
+            <a class="footer-link" href="privacy.html">Privacy Policy</a>
+            <a class="footer-link" href="work.html">Work for us</a>
+            <a class="footer-link" href="contact.html">Contact Us</a>
+            <a class="footer-link" href="media.html">Social Media</a>
+        </footer>
+    </div>
+    <script src="cats.js"></script>
+</body>
+
+</html>
