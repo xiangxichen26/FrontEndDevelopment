@@ -120,13 +120,10 @@ body {
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 1rem;
     padding: 1rem;
-
-    flex-grow: 1;
 }
 
 .card-detail{
     grid-column: span 12;
-    margin: auto;
     text-align: center;
     padding: 1rem;
 
