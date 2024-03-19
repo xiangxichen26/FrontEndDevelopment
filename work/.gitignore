@@ -10,3 +10,5 @@ node_modules
 
 # Omitting this because students aren't writing for node
 package-lock.json
+
+dist
