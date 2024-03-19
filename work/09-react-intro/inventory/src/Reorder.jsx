@@ -1,4 +1,4 @@
-import './Reorder.css'; // Assuming custom CSS for animation
+import './Reorder.css'; 
 
 function Reorder({ onReorder }) {
   return (
