@@ -1,0 +1,22 @@
+.footer{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 1rem;
+    padding: 1rem;
+
+    background-color: burlywood;
+}
+.footer-link{
+    grid-column: span 12;
+
+}
+
+@media (min-width: 44rem) {
+    .footer-link{
+        grid-column: span 3;
+        display: flex;
+        justify-content: center;
+    
+    }
+
+}

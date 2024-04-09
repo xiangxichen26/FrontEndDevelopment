@@ -1,0 +1,101 @@
+/* below CSS adapted from https://css.gg under the MIT License */
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/menu.css');
+
+.header {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 1rem;
+
+    background-color: burlywood;
+}
+
+.header-logo {
+    grid-column: span 2;
+    width: 100px;
+    height: 100px;
+    
+    cursor: pointer;
+}
+.header-logo-image {
+    width: 100px;
+    height: 100px;
+}
+
+.header-title{
+    grid-column: span 8;
+    width: 100%;   
+     
+    text-align: center;
+    margin: auto;
+    font-size: 1.8rem;
+}
+.header-nav {
+    grid-column: span 2;
+    margin: auto;
+
+    width: max-content;
+}
+
+
+.menu-submenu {
+    position: absolute;
+    right: 0;
+
+    background-color: burlywood;
+
+    max-height: 0;
+    padding: 0;
+    overflow: hidden;
+
+    list-style-type: none;
+
+    transition: 0.5s;
+    transition-property: max-height;
+}
+
+.submenu-open{
+    max-height: 10rem;
+}
+
+.submenu-item{
+    list-style-type: none;
+    padding: 0.5rem;
+}
+
+.submenu-item:hover{
+    background-color: dodgerblue;
+}
+
+.submenu-link:hover{
+    color: white;
+}
+
+@media (min-width: 44rem) {
+    .header-title{
+        grid-column: span 10;
+    }
+
+    .header-nav{
+        grid-column: span 12;
+
+        width: 100%;
+    }
+
+    .menu-button{
+        display: none;
+    }
+
+    .menu-submenu{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+
+        max-height: initial;
+    }
+
+    .submenu-item{
+        grid-column: span 4;
+        margin: auto;
+    }
+
+}
