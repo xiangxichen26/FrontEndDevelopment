@@ -1,5 +1,6 @@
 import React from 'react';
 import Panel from "./Panel";
+
 import panelImg1 from "../img/index-1.jpg";
 import panelImg2 from "../img/index-2.jpg";
 

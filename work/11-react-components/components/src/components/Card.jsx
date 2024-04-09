@@ -1,8 +1,8 @@
 import React from "react";
 import { useState } from "react";
-
 import Button from "./Button";
 import Modal from "./Modal";
+
 import "./Card.css";
 
 function Card({ title, children, img, imgAlt, text, onLinkToAbout}) {
