@@ -1,9 +1,10 @@
 import React from "react";
 import { useState } from "react";
+import Button from "./Button";
 
 import "./Header.css";
+
 import logoImage from "../img/logo.jpg";
-import Button from "./Button";
 
 function Header({ setPage }) {
   const [showMenu, setShowMenu] = useState(false);

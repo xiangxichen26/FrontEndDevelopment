@@ -1,7 +1,8 @@
 import React from "react";
 import { useRef,useEffect,useState } from "react";
-import "./Modal.css";
 import Button from "./Button";
+
+import "./Modal.css";
 
 function Modal({ children, title, visible, onClose }) {
     const dialogRef = useRef(null);
