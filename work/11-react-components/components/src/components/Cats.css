@@ -1,0 +1,16 @@
+.cats{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 1rem;
+    padding: 1rem;
+}
+
+.card{
+    grid-column: span 12;
+}
+
+@media (min-width: 44rem) {
+    .card{
+        grid-column: span 4;
+    }
+}
