@@ -1,0 +1,53 @@
+.carousel {
+  position: relative;
+  width: 640px;
+  height: 212px;
+  padding: 0rem 2rem 2rem 2rem;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.carousel-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.carousel-slide {
+  position: absolute;
+  width: 320px;
+
+  border-radius: 4px;
+
+  transition:
+    transform 0.5s ease,
+    z-index 0.5s ease;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  padding: 0.5rem;
+  z-index: 2;
+
+  transform: translateY(-50%);
+}
+
+.carousel-button:hover {
+  border-color: #165DFF;
+}
+
+.prev {
+  left: 0px;
+}
+
+.next {
+  right: 0px;
+}
+
+@media  (prefers-reduced-motion: reduce) {
+  .carousel-slide {
+    transition: none;
+  }
+}

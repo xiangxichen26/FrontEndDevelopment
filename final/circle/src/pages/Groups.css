@@ -1,0 +1,138 @@
+.skip-to-content-link {
+  position: absolute;
+  left: -999px;
+  top: -999px;
+  background: #165DFF;
+  color: #fff;
+  padding: 8px 16px;
+  z-index: 100;
+}
+
+.skip-to-content-link:focus {
+  left: 10px;
+  top: 10px;
+}
+
+.groups {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.groups-list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.groups-search {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.groups-search-label {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+.groups-search-option {
+  width: 100%;
+  padding: 4px 12px;
+
+  border: 1px solid #e0e0e0;
+  border-radius: 2px;
+  color: #4e5969;
+}
+
+.card-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-content-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-content-top {
+  margin-bottom: 1rem;
+}
+
+.card-content-bottom {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.card-content-bottom-founder {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.modal-form{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: auto;
+  width: 100%;
+}
+
+.modal-form-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.modal-form-item-label {
+  width: 15rem;
+}
+
+.modal-form-item-input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: none;
+}
+
+.modal-form-item-input-content {
+  border: 1px solid #1d2129; 
+}
+
+.modal-form-item-input-error {
+  color: #ff453a;
+  font-size: 0.9rem;
+}
+
+@media (min-width: 47rem) {
+  .groups-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .modal-form-item {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 64rem) {
+  .groups-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .groups-search-option {
+    background: #232324;
+    border: 1px solid #232324;
+    color: #fff;
+  }
+  .modal-form-item-input-content {
+    border: 1px solid #e0e0e0; 
+  }
+}
