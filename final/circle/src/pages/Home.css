@@ -1,0 +1,75 @@
+/* below CSS adapted from https://css.gg under the MIT License */
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/calendar-two.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/pin.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/organisation.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/mail.css');
+
+.skip-to-content-link {
+  position: absolute;
+  left: -999px;
+  top: -999px;
+  background: #165DFF;
+  color: #fff;
+  padding: 8px 16px;
+  z-index: 100;
+}
+
+.skip-to-content-link:focus {
+  left: 10px;
+  top: 10px;
+}
+
+.home-evets {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-events-list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+}
+
+.card-content {
+  margin-top: 1rem;
+}
+
+.card-content-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-content-item-icon{
+  width: 15px;
+  height: 15px;
+}
+
+.gg-organisation{
+  transform: scale(0.9);
+}
+
+
+@media (min-width: 47rem) {
+  .home-events-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card-content-item-description {
+    display: -webkit-box;
+    -webkit-line-clamp: 11;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 64rem) {
+  .home-events-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

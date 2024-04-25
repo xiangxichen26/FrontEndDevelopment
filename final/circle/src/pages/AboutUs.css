@@ -1,0 +1,62 @@
+.tab-team-text {
+  margin-top: 1rem;
+}
+
+.tab-team-members {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.tab-team-members-card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.tab-team-members-card-content-img{
+  height: 200px;
+  object-fit: cover;
+}
+
+.tab-mission,
+.tab-story {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tab-story {
+  flex-direction: column-reverse;
+  margin-top: 2rem;
+}
+
+.tab-mission-img,
+.tab-story-img {
+  width: 400px;
+  height: 300px;
+}
+
+@media (min-width: 38rem) {
+  .tab-team-members {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+
+@media (min-width: 47rem) {
+  .tab-team-members {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  .tab-mission,
+  .tab-story {
+    flex-direction: row;
+    gap: 4rem;
+  }
+}

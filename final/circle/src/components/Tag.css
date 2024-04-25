@@ -1,0 +1,52 @@
+.tag-blue,
+.tag-green,
+.tag-red,
+.tag-yellow,
+.tag-purple,
+.tag-orange,
+.tag-grey,
+.tag-pink,
+.tag-solid-blue {
+  padding: 3px 8px;
+
+  border-radius: 2px;
+}
+.tag-blue {
+  background-color: #e8f7ff;
+  color: #034FA5;
+}
+
+.tag-green {
+  background-color: #e8ffea;
+  color: #00701A;
+}
+
+.tag-red {
+  background: #FFECE8;
+  color: #D50B0B;
+}
+
+.tag-yellow {
+  background-color: #FEFFE8;
+  color: #926B07;
+}
+
+.tag-purple {
+  background-color: #f5e8ff;
+  color: #722ed1;
+}
+
+.tag-orange {
+  background-color: #FFF3E8;
+  color: #A23511;
+}
+
+.tag-grey {
+  background-color: #f2f3f5;
+  color: #1d2129;
+}
+
+.tag-pink {
+  background-color: #FFE8F1;
+  color: #C3096F;
+}

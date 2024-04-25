@@ -1,0 +1,36 @@
+.tab-list {
+  display: flex;
+  padding: 0;
+  gap: 1rem;
+
+  list-style-type: none;
+}
+
+.tab-list-item {
+  padding: 5px 16px;
+
+  cursor: pointer;
+  list-style-type: none;
+  border-radius: 100px;
+  background-color: #F2F3F5;
+}
+
+.tab-button {
+  padding: 5px 16px;
+
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+.tab-button.active {
+  color: #165DFF;
+  font-weight: 500;
+}
+
+@media (prefers-color-scheme: dark) {
+  .tab-list-item {
+    background-color: #1A1A1A;
+  }
+}

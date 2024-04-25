@@ -1,0 +1,33 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+
+  background: #fff;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 47rem) {
+  .footer {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    padding: 0 1.3rem;
+  }
+
+  .footer-links {
+    flex-direction: row;
+    gap: 1rem;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .footer {
+    background: #232324;
+  }
+}

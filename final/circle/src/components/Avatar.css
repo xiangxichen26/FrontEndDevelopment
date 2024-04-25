@@ -1,0 +1,26 @@
+.avatar-small {
+  width: 32px;
+  height: 32px;
+
+  border-radius: 50%;
+}
+
+.avatar-medium {
+  width: 40px;
+  height: 40px;
+  
+  border-radius: 50%;
+}
+
+.avatar-large {
+  width: 64px;
+  height: 64px;
+
+  border-radius: 50%;
+}
+
+.avatar-small:hover,
+.avatar-medium:hover,
+.avatar-large:hover {
+  cursor: pointer;
+}

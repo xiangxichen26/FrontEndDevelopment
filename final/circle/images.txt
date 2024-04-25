@@ -1,0 +1,56 @@
+// header
+./src/assets/img/logo.png : draw by myself
+./src/assets/img/avatar.jpg : https://unsplash.com/photos/a-woman-in-a-yellow-shirt-and-black-pants-rdHrrFA1KKg
+
+// carousel
+./src/assets/img/carousel/img1.jpg: https://unsplash.com/photos/three-persons-standing-front-of-field-S5DEUg2yUVU
+./src/assets/img/carousel/img2.jpg: https://unsplash.com/photos/people-in-conference-nwLTVwb7DbU
+./src/assets/img/carousel/img3.jpg: https://unsplash.com/photos/group-of-people-watching-concert-U7HLzMO4SIY
+./src/assets/img/carousel/img4.jpg: https://unsplash.com/photos/laughing-people-in-party-fIHozNWfcvs
+./src/assets/img/carousel/img5.jpg: https://unsplash.com/photos/group-of-people-in-party-w423NnHFjFg
+
+// events
+./src/assets/img/events/event1.jpg: https://unsplash.com/photos/woman-and-man-sitting-in-front-of-monitor-IgUR1iX0mqM
+./src/assets/img/events/event2.jpg: https://unsplash.com/photos/dessert-lane-festival-sdxIkT42hGc
+./src/assets/img/events/event3.jpg: https://unsplash.com/photos/band-playing-musical-instruments-FU1KddSIIR4
+./src/assets/img/events/event4.jpg: https://unsplash.com/photos/assorted-book-lot-YTUZcmmf1eU
+./src/assets/img/events/event5.jpg: https://unsplash.com/photos/people-walking-on-street-during-daytime-TqOFeBqnqrI
+./src/assets/img/events/event6.jpg: https://unsplash.com/photos/people-tossing-their-clear-wine-glasses-udj2tD3WKsY
+./src/assets/img/events/event7.jpg: https://unsplash.com/photos/assorted-paintings-on-white-painted-wall-3GZlhROZIQg
+./src/assets/img/events/event8.jpg: https://unsplash.com/photos/a-blue-light-is-shining-on-a-machine-w8PUaEXkSgw
+./src/assets/img/events/event9.jpg: https://unsplash.com/photos/black-digital-video-camera-YvPxyGzaFJ4
+./src/assets/img/events/event10.jpg: https://unsplash.com/photos/a-group-of-people-standing-in-front-of-a-building-ZQO-AA7ceKE
+
+// groups
+./src/assets/img/groups/group1.jpg: https://unsplash.com/photos/man-in-red-and-black-jacket-holding-brown-cardboard-box-u29d3Qwbz58
+./src/assets/img/groups/group2.jpg: https://unsplash.com/photos/a-cube-shaped-building-on-a-rock-e_xLO2vmiQI
+./src/assets/img/groups/group3.jpg: https://unsplash.com/photos/brown-wooden-wheel-on-brown-wooden-table-fsOKJe2eA0k
+./src/assets/img/groups/group4.jpg: https://unsplash.com/photos/a-macbook-with-lines-of-code-on-its-screen-on-a-busy-desk-m_HRfLhgABo
+./src/assets/img/groups/group5.jpg: https://unsplash.com/photos/top-view-of-building-with-trees-IfmqOuOkaOA
+./src/assets/img/groups/group6.jpg: https://unsplash.com/photos/person-doing-yoga-exercises-w5SgojGZooI
+./src/assets/img/groups/group7.jpg: https://unsplash.com/photos/selective-focus-photo-of-bitcoin-near-monitor-JrjhtBJ-pGU
+./src/assets/img/groups/group8.jpg: https://unsplash.com/photos/assorted-color-paint-strokes-artwork-5MTf9XyVVgM
+./src/assets/img/groups/group9.jpg: https://unsplash.com/photos/man-in-white-jacket-holding-purple-and-white-banner-qNk6VylB5AU
+./src/assets/img/groups/group10.jpg: https://unsplash.com/photos/a-woman-holding-a-clapper-over-her-face-A-obUh61bKw
+./src/assets/img/groups/group11.jpg: https://unsplash.com/photos/red-cinema-chair-evlkOfkQ5rE
+./src/assets/img/groups/group12.jpg: https://unsplash.com/photos/person-holding-foundr-book-Etxsv8WiFjM
+./src/assets/img/groups/group13.jpg: https://unsplash.com/photos/gray-and-black-laptop-computer-on-surface-Im7lZjxeLhg
+./src/assets/img/groups/group14.jpg: https://unsplash.com/photos/man-standing-beside-another-sitting-man-using-computer-l90zRbWvCoE
+./src/assets/img/groups/group15.jpg: https://unsplash.com/photos/group-of-people-doing-yoga-ZARfCYDaVg0
+./src/assets/img/groups/group16.jpg: https://unsplash.com/photos/a-row-of-books-sitting-on-top-of-a-wooden-shelf-GO9L8-0EkeA
+./src/assets/img/groups/group17.jpg: https://unsplash.com/photos/grayscale-photo-of-pyramid-and-camels-in-the-desert-5lpbC64r3Z4
+./src/assets/img/groups/group18.jpg: https://unsplash.com/photos/choose-your-words-tiles-POMpXtcVYHo
+./src/assets/img/groups/group19.jpg: https://unsplash.com/photos/woman-in-pink-shirt-and-blue-denim-jeans-sitting-on-brown-rock-near-river-during-daytime-D_VjFp1ds1Y
+
+// about us
+./src/assets/img/about-us/mission.jpg: https://unsplash.com/photos/man-standing-on-hill-during-full-moon-OWbH9a8Yi2I
+./src/assets/img/about-us/story.jpg: https://unsplash.com/photos/four-person-hands-wrap-around-shoulders-while-looking-at-sunset-PGnqT0rXWLs
+
+// our team
+./src/assets/img/team/kelly.png: https://notion-avatar.vercel.app/zh (under the MIT License)
+./src/assets/img/team/aiden.png: https://notion-avatar.vercel.app/zh (under the MIT License)
+./src/assets/img/team/naomi.png: https://notion-avatar.vercel.app/zh (under the MIT License)
+
+// group founders avatar
+./src/assets/img/groups-founders/boy.png: https://notion-avatar.vercel.app/zh (under the MIT License)
+./src/assets/img/groups-founders/girl.png: https://notion-avatar.vercel.app/zh (under the MIT License)
